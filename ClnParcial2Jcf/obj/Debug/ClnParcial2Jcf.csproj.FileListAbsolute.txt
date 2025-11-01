@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\ClnParcial2Jcf.dll.config
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\ClnParcial2Jcf.dll
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\ClnParcial2Jcf.pdb
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\CadParcial2Jcf.dll
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\EntityFramework.dll
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\CadParcial2Jcf.pdb
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\CadParcial2Jcf.dll.config
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\EntityFramework.xml
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\obj\Debug\ClnParcial2Jcf.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\obj\Debug\ClnParcial2Jcf.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\obj\Debug\ClnParci.497686CE.Up2Date
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\obj\Debug\ClnParcial2Jcf.dll
+C:\Users\HP\Desktop\Parcial2JCF\ClnParcial2Jcf\obj\Debug\ClnParcial2Jcf.pdb
