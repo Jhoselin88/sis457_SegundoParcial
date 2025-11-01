@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|c:\\users\\hp\\desktop\\parcial2jcf\\cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|solutionrelative:cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|C:\\Users\\HP\\Desktop\\Parcial2JCF\\cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|solutionrelative:cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F413D345-CCE9-4695-A5FD-BB84ACCB1B62}|ClnParcial2Jcf\\ClnParcial2Jcf.csproj|c:\\users\\hp\\desktop\\parcial2jcf\\clnparcial2jcf\\programacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F413D345-CCE9-4695-A5FD-BB84ACCB1B62}|ClnParcial2Jcf\\ClnParcial2Jcf.csproj|solutionrelative:clnparcial2jcf\\programacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{226C949D-6831-4E0E-835B-A6D8A942BC50}|CadParcial2Jcf\\CadParcial2Jcf.csproj|C:\\Users\\HP\\Desktop\\Parcial2JCF\\cadparcial2jcf\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{226C949D-6831-4E0E-835B-A6D8A942BC50}|CadParcial2Jcf\\CadParcial2Jcf.csproj|solutionrelative:cadparcial2jcf\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|C:\\Users\\HP\\Desktop\\Parcial2JCF\\cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|solutionrelative:cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Parcial2JCF\\Parcial2Jcf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parcial2Jcf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|c:\\users\\hp\\desktop\\parcial2jcf\\cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|solutionrelative:cpparcial2jcf\\frmprograma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F413D345-CCE9-4695-A5FD-BB84ACCB1B62}|ClnParcial2Jcf\\ClnParcial2Jcf.csproj|c:\\users\\hp\\desktop\\parcial2jcf\\clnparcial2jcf\\programacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F413D345-CCE9-4695-A5FD-BB84ACCB1B62}|ClnParcial2Jcf\\ClnParcial2Jcf.csproj|solutionrelative:clnparcial2jcf\\programacln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|c:\\users\\hp\\desktop\\parcial2jcf\\cpparcial2jcf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3A9510-662C-41FF-A5E0-BDE1D29E69A7}|CpParcial2Jcf\\CpParcial2Jcf.csproj|solutionrelative:cpparcial2jcf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Parcial2JCF\\Parcial2Jcf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parcial2Jcf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Parcial2JCF\\Parcial2Jcf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Parcial2Jcf.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProgramaCln.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\ClnParcial2Jcf\\ProgramaCln.cs",
-              "RelativeDocumentMoniker": "ClnParcial2Jcf\\ProgramaCln.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\ClnParcial2Jcf\\ProgramaCln.cs",
-              "RelativeToolTip": "ClnParcial2Jcf\\ProgramaCln.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CpParcial2Jcf\\Program.cs",
+              "RelativeDocumentMoniker": "CpParcial2Jcf\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CpParcial2Jcf\\Program.cs",
+              "RelativeToolTip": "CpParcial2Jcf\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:12:13.296Z",
+              "WhenOpened": "2025-11-01T14:52:59.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Parcial2Jcf.sql ",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\Parcial2Jcf.sql",
               "RelativeDocumentMoniker": "Parcial2Jcf.sql",
@@ -62,20 +66,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "ProgramaCln.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\ClnParcial2Jcf\\ProgramaCln.cs",
+              "RelativeDocumentMoniker": "ClnParcial2Jcf\\ProgramaCln.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\ClnParcial2Jcf\\ProgramaCln.cs",
+              "RelativeToolTip": "ClnParcial2Jcf\\ProgramaCln.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T08:12:13.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modelo.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CadParcial2Jcf\\Modelo.edmx",
+              "RelativeDocumentMoniker": "CadParcial2Jcf\\Modelo.edmx",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CadParcial2Jcf\\Modelo.edmx [Diagram1]",
+              "RelativeToolTip": "CadParcial2Jcf\\Modelo.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-11-01T12:40:20.44Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FrmPrograma.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CpParcial2Jcf\\FrmPrograma.cs",
               "RelativeDocumentMoniker": "CpParcial2Jcf\\FrmPrograma.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CpParcial2Jcf\\FrmPrograma.cs",
               "RelativeToolTip": "CpParcial2Jcf\\FrmPrograma.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T08:13:23.699Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrmPrograma.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Parcial2JCF\\CpParcial2Jcf\\FrmPrograma.cs",
               "RelativeDocumentMoniker": "CpParcial2Jcf\\FrmPrograma.cs",

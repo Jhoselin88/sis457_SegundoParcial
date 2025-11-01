@@ -4,26 +4,50 @@
     <EntitySetMapping Name="Canal">
       <EntityTypeMapping TypeName="Parcial2JcfModel.Canal">
         <MappingFragment StoreEntitySet="Canal">
-          <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
-          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
+          <ScalarProperty Name="estadoRegistro" ColumnName="estadoRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
           <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="frecuencia" ColumnName="frecuencia" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="id" ColumnName="id" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
     <EntitySetMapping Name="Programa">
       <EntityTypeMapping TypeName="Parcial2JcfModel.Programa">
         <MappingFragment StoreEntitySet="Programa">
+          <ScalarProperty Name="estadoRegistro" ColumnName="estadoRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+          <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
+          <ScalarProperty Name="productor" ColumnName="productor" />
+          <ScalarProperty Name="duracion" ColumnName="duracion" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="titulo" ColumnName="titulo" />
+          <ScalarProperty Name="idCanal" ColumnName="idCanal" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="paProgramaListar" FunctionName="Parcial2JcfModel.Store.paProgramaListar">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Parcial2JcfModel.paProgramaListar_Result">
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="idCanal" ColumnName="idCanal" />
+          <ScalarProperty Name="nombreCanal" ColumnName="nombreCanal" />
           <ScalarProperty Name="titulo" ColumnName="titulo" />
           <ScalarProperty Name="descripcion" ColumnName="descripcion" />
           <ScalarProperty Name="duracion" ColumnName="duracion" />
           <ScalarProperty Name="productor" ColumnName="productor" />
           <ScalarProperty Name="fechaEstreno" ColumnName="fechaEstreno" />
           <ScalarProperty Name="estado" ColumnName="estado" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estadoRegistro" ColumnName="estadoRegistro" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -1,14 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Parcial2JcfModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Parcial2JcfEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Canal" EntityType="Parcial2JcfModel.Canal" />
+    <EntitySet Name="Programa" EntityType="Parcial2JcfModel.Programa" />
+    <AssociationSet Name="fk_Programa_Canal" Association="Parcial2JcfModel.fk_Programa_Canal">
+      <End Role="Canal" EntitySet="Canal" />
+      <End Role="Programa" EntitySet="Programa" />
+    </AssociationSet>
+    <FunctionImport Name="paProgramaListar" ReturnType="Collection(Parcial2JcfModel.paProgramaListar_Result)">
+      <Parameter Name="parametro" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
   <EntityType Name="Canal">
     <Key>
       <PropertyRef Name="id" />
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
     <Property Name="frecuencia" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
     <Property Name="estado" Type="Int16" />
-    <NavigationProperty Name="Programa" Relationship="Self.FK_Programa_Canal" FromRole="Canal" ToRole="Programa" />
+    <Property Name="usuarioRegistro" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estadoRegistro" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Programa" Relationship="Parcial2JcfModel.fk_Programa_Canal" FromRole="Canal" ToRole="Programa" />
   </EntityType>
   <EntityType Name="Programa">
     <Key>
@@ -16,17 +30,20 @@
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="idCanal" Type="Int32" Nullable="false" />
-    <Property Name="titulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="titulo" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="descripcion" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
     <Property Name="duracion" Type="Int32" />
     <Property Name="productor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="fechaEstreno" Type="DateTime" Precision="0" />
     <Property Name="estado" Type="Int16" />
-    <NavigationProperty Name="Canal" Relationship="Self.FK_Programa_Canal" FromRole="Programa" ToRole="Canal" />
+    <Property Name="usuarioRegistro" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estadoRegistro" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Canal" Relationship="Parcial2JcfModel.fk_Programa_Canal" FromRole="Programa" ToRole="Canal" />
   </EntityType>
-  <Association Name="FK_Programa_Canal">
-    <End Role="Canal" Type="Self.Canal" Multiplicity="1" />
-    <End Role="Programa" Type="Self.Programa" Multiplicity="*" />
+  <Association Name="fk_Programa_Canal">
+    <End Type="Parcial2JcfModel.Canal" Role="Canal" Multiplicity="1" />
+    <End Type="Parcial2JcfModel.Programa" Role="Programa" Multiplicity="*" />
     <ReferentialConstraint>
       <Principal Role="Canal">
         <PropertyRef Name="id" />
@@ -36,12 +53,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="Parcial2JcfEntities" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Canal" EntityType="Self.Canal" />
-    <EntitySet Name="Programa" EntityType="Self.Programa" />
-    <AssociationSet Name="FK_Programa_Canal" Association="Self.FK_Programa_Canal">
-      <End Role="Canal" EntitySet="Canal" />
-      <End Role="Programa" EntitySet="Programa" />
-    </AssociationSet>
-  </EntityContainer>
+  <ComplexType Name="paProgramaListar_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="Int32" Name="idCanal" Nullable="false" />
+    <Property Type="String" Name="nombreCanal" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="titulo" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="descripcion" Nullable="true" MaxLength="250" />
+    <Property Type="Int32" Name="duracion" Nullable="true" />
+    <Property Type="String" Name="productor" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="fechaEstreno" Nullable="true" />
+    <Property Type="Int16" Name="estado" Nullable="true" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estadoRegistro" Nullable="false" />
+  </ComplexType>
 </Schema>

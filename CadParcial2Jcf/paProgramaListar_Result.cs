@@ -10,25 +10,20 @@
 namespace CadParcial2Jcf
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class Canal
+    public partial class paProgramaListar_Result
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Canal()
-        {
-            this.Programa = new HashSet<Programa>();
-        }
-    
         public int id { get; set; }
-        public string nombre { get; set; }
-        public string frecuencia { get; set; }
+        public int idCanal { get; set; }
+        public string nombreCanal { get; set; }
+        public string titulo { get; set; }
+        public string descripcion { get; set; }
+        public Nullable<int> duracion { get; set; }
+        public string productor { get; set; }
+        public Nullable<System.DateTime> fechaEstreno { get; set; }
         public Nullable<short> estado { get; set; }
         public string usuarioRegistro { get; set; }
         public System.DateTime fechaRegistro { get; set; }
         public short estadoRegistro { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Programa> Programa { get; set; }
     }
 }

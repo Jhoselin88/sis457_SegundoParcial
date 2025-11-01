@@ -1,6 +1,6 @@
 ﻿namespace CpParcial2Jcf
 {
-    partial class FrmPrograma
+    partial class FrmProgramas
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -40,18 +40,19 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.gbxDatos = new System.Windows.Forms.GroupBox();
-            this.lblTitulo = new System.Windows.Forms.Label();
-            this.txtTitulo = new System.Windows.Forms.TextBox();
-            this.lblDescripcion = new System.Windows.Forms.Label();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.lblCanal = new System.Windows.Forms.Label();
-            this.nudCanal = new System.Windows.Forms.NumericUpDown();
-            this.lblFechaEstreno = new System.Windows.Forms.Label();
-            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
-            this.lblDirector = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lblDirector = new System.Windows.Forms.Label();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.lblFechaEstreno = new System.Windows.Forms.Label();
+            this.nudCanal = new System.Windows.Forms.NumericUpDown();
+            this.lblCanal = new System.Windows.Forms.Label();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.lblDescripcion = new System.Windows.Forms.Label();
+            this.txtTitulo = new System.Windows.Forms.TextBox();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.btnEditar = new System.Windows.Forms.Button();
             this.gbxListado.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.plnAcciones.SuspendLayout();
@@ -61,7 +62,7 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.Font = new System.Drawing.Font("Lucida Bright", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 9);
@@ -125,6 +126,7 @@
             // 
             // plnAcciones
             // 
+            this.plnAcciones.Controls.Add(this.btnEditar);
             this.plnAcciones.Controls.Add(this.btnNuevo);
             this.plnAcciones.Controls.Add(this.btnEliminar);
             this.plnAcciones.Controls.Add(this.btnCerrar);
@@ -191,86 +193,17 @@
             this.gbxDatos.TabStop = false;
             this.gbxDatos.Text = "Datos";
             // 
-            // lblTitulo
+            // button3
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Location = new System.Drawing.Point(28, 26);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(48, 15);
-            this.lblTitulo.TabIndex = 0;
-            this.lblTitulo.Text = "Titulo:";
-            // 
-            // txtTitulo
-            // 
-            this.txtTitulo.Location = new System.Drawing.Point(129, 23);
-            this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(236, 23);
-            this.txtTitulo.TabIndex = 3;
-            // 
-            // lblDescripcion
-            // 
-            this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(28, 66);
-            this.lblDescripcion.Name = "lblDescripcion";
-            this.lblDescripcion.Size = new System.Drawing.Size(87, 15);
-            this.lblDescripcion.TabIndex = 4;
-            this.lblDescripcion.Text = "Descripcion:";
-            // 
-            // txtDescripcion
-            // 
-            this.txtDescripcion.Location = new System.Drawing.Point(129, 58);
-            this.txtDescripcion.Multiline = true;
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(236, 85);
-            this.txtDescripcion.TabIndex = 5;
-            // 
-            // lblCanal
-            // 
-            this.lblCanal.AutoSize = true;
-            this.lblCanal.Location = new System.Drawing.Point(456, 26);
-            this.lblCanal.Name = "lblCanal";
-            this.lblCanal.Size = new System.Drawing.Size(49, 15);
-            this.lblCanal.TabIndex = 6;
-            this.lblCanal.Text = "Canal:";
-            // 
-            // nudCanal
-            // 
-            this.nudCanal.Location = new System.Drawing.Point(574, 23);
-            this.nudCanal.Name = "nudCanal";
-            this.nudCanal.Size = new System.Drawing.Size(289, 23);
-            this.nudCanal.TabIndex = 7;
-            // 
-            // lblFechaEstreno
-            // 
-            this.lblFechaEstreno.AutoSize = true;
-            this.lblFechaEstreno.Location = new System.Drawing.Point(433, 66);
-            this.lblFechaEstreno.Name = "lblFechaEstreno";
-            this.lblFechaEstreno.Size = new System.Drawing.Size(120, 15);
-            this.lblFechaEstreno.TabIndex = 8;
-            this.lblFechaEstreno.Text = "Fecha de Estreno:";
-            // 
-            // dtpFecha
-            // 
-            this.dtpFecha.Location = new System.Drawing.Point(574, 58);
-            this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(289, 23);
-            this.dtpFecha.TabIndex = 9;
-            // 
-            // lblDirector
-            // 
-            this.lblDirector.AutoSize = true;
-            this.lblDirector.Location = new System.Drawing.Point(433, 109);
-            this.lblDirector.Name = "lblDirector";
-            this.lblDirector.Size = new System.Drawing.Size(64, 15);
-            this.lblDirector.TabIndex = 10;
-            this.lblDirector.Text = "Director:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(574, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(289, 23);
-            this.textBox1.TabIndex = 11;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(491, 149);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(107, 37);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Cancelar";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -284,17 +217,98 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // textBox1
             // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(491, 149);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 37);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "Cancelar";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(574, 101);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(289, 23);
+            this.textBox1.TabIndex = 11;
+            // 
+            // lblDirector
+            // 
+            this.lblDirector.AutoSize = true;
+            this.lblDirector.Location = new System.Drawing.Point(433, 109);
+            this.lblDirector.Name = "lblDirector";
+            this.lblDirector.Size = new System.Drawing.Size(64, 15);
+            this.lblDirector.TabIndex = 10;
+            this.lblDirector.Text = "Director:";
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Location = new System.Drawing.Point(574, 58);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(289, 23);
+            this.dtpFecha.TabIndex = 9;
+            // 
+            // lblFechaEstreno
+            // 
+            this.lblFechaEstreno.AutoSize = true;
+            this.lblFechaEstreno.Location = new System.Drawing.Point(433, 66);
+            this.lblFechaEstreno.Name = "lblFechaEstreno";
+            this.lblFechaEstreno.Size = new System.Drawing.Size(120, 15);
+            this.lblFechaEstreno.TabIndex = 8;
+            this.lblFechaEstreno.Text = "Fecha de Estreno:";
+            // 
+            // nudCanal
+            // 
+            this.nudCanal.Location = new System.Drawing.Point(574, 23);
+            this.nudCanal.Name = "nudCanal";
+            this.nudCanal.Size = new System.Drawing.Size(289, 23);
+            this.nudCanal.TabIndex = 7;
+            // 
+            // lblCanal
+            // 
+            this.lblCanal.AutoSize = true;
+            this.lblCanal.Location = new System.Drawing.Point(456, 26);
+            this.lblCanal.Name = "lblCanal";
+            this.lblCanal.Size = new System.Drawing.Size(49, 15);
+            this.lblCanal.TabIndex = 6;
+            this.lblCanal.Text = "Canal:";
+            // 
+            // txtDescripcion
+            // 
+            this.txtDescripcion.Location = new System.Drawing.Point(129, 58);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(236, 85);
+            this.txtDescripcion.TabIndex = 5;
+            // 
+            // lblDescripcion
+            // 
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Location = new System.Drawing.Point(28, 66);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(87, 15);
+            this.lblDescripcion.TabIndex = 4;
+            this.lblDescripcion.Text = "Descripcion:";
+            // 
+            // txtTitulo
+            // 
+            this.txtTitulo.Location = new System.Drawing.Point(129, 23);
+            this.txtTitulo.Name = "txtTitulo";
+            this.txtTitulo.Size = new System.Drawing.Size(236, 23);
+            this.txtTitulo.TabIndex = 3;
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Location = new System.Drawing.Point(28, 26);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(48, 15);
+            this.lblTitulo.TabIndex = 0;
+            this.lblTitulo.Text = "Titulo:";
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
+            this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEditar.Location = new System.Drawing.Point(290, 5);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(92, 44);
+            this.btnEditar.TabIndex = 8;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEditar.UseVisualStyleBackColor = true;
             // 
             // FrmPrograma
             // 
@@ -350,6 +364,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnEditar;
     }
 }
 

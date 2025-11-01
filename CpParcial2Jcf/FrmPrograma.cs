@@ -25,7 +25,7 @@ namespace CpParcial2Jcf
             dgvLista.Columns["id"].Visible = false;
             dgvLista.Columns["titulo"].HeaderText = "TITULO";
             dgvLista.Columns["descripcion"].HeaderText = "DESCRIPCION";
-            dgvLista.Columns["productor"].HeaderText = "PRODUCTOR";
+            dgvLista.Columns["productor"].HeaderText = "PRODUCTOR"; 
             dgvLista.Columns["fechaEstreno"].HeaderText = "FECHA ESTRENO";
             dgvLista.Columns["estado"].Visible = false;
 

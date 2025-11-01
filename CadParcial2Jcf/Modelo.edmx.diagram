@@ -5,9 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="701c37612c7e420298ddb4a117282a69" Name="Diagram1">
-        <EntityTypeShape EntityType="Parcial2JcfModel.Canal" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Parcial2JcfModel.Programa" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <AssociationConnector Association="Parcial2JcfModel.FK_Programa_Canal" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="Parcial2JcfModel.Canal" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="Parcial2JcfModel.Programa" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="Parcial2JcfModel.fk_Programa_Canal" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

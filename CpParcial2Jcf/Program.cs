@@ -18,5 +18,3 @@ namespace CpParcial2Jcf
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmPrograma());
         }
-    }
-}

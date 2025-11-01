@@ -22,6 +22,9 @@ namespace CadParcial2Jcf
         public string productor { get; set; }
         public Nullable<System.DateTime> fechaEstreno { get; set; }
         public Nullable<short> estado { get; set; }
+        public string usuarioRegistro { get; set; }
+        public System.DateTime fechaRegistro { get; set; }
+        public short estadoRegistro { get; set; }
     
         public virtual Canal Canal { get; set; }
     }
